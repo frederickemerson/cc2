@@ -28,11 +28,12 @@ function App() {
     }
     else{
       console.log("Success")
+      window.location.reload(false);
     } 
 }
 
   return (
-    <>
+    <div className="container">
                 <label className="heading">Item Name</label>
                 <br></br>
                 <select className='dropdown' defaultValue="" onChange={(e)=>setName(e.target.value)}>
@@ -65,7 +66,7 @@ function App() {
                  <br></br>
 
                 <button  onClick={e => upload(e)}> Submit </button>
-    </>
+    </div>
   )
 }
 

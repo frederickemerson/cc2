@@ -28,6 +28,7 @@ body {
   display: flex;
   min-width: 320px;
   min-height: 100vh;
+  background: white;
 }
 
 h1 {
@@ -46,14 +47,26 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
-button:hover {
+
+.heading{
+  font-size: 2vw;
+  font-family: monospace;
+}
+select{
+  padding: 0.5vw;
+}
+button {
   border-color: #646cff;
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-
+.container{
+  background-color: #1a1a1a;
+  padding: 3vw;
+  border-radius: 3vw; 
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
