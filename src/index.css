@@ -6,6 +6,7 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
+  color: #fff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -54,9 +55,10 @@ button {
 }
 select{
   padding: 0.5vw;
+  color: #fff;
 }
 button {
-  border-color: #646cff;
+  border-color: #fff;
 }
 button:focus,
 button:focus-visible {
